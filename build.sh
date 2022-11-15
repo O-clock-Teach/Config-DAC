@@ -41,8 +41,8 @@ fi
 
 
 cp -a adoc_les_modules/*.html public
-cp -r reveal.js/rainbow.css public/
-cp -r reveal.js/ public/
+cp -r Config-DAC/reveal.js/rainbow.css public/
+cp -r Config-DAC/reveal.js/ public/
 cp -r highlight/ public/
 cp -r reveal.js/ public/apprenant/html/
 cp -r reveal.js/ public/formateur/html/
