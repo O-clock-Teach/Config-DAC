@@ -2,11 +2,11 @@
 
 = Config-DAC
 
-WARNING: Ce repository contient la configuration de tous les repos ADOC
+WARNING: Ce repository est *SENSIBLE*, il contient la configuration de tous les repos ADOC
 
-Configuration du Doc As Code dans un submodule.
-
-Ce repo doit rester *public* pour qu'il fonctionne en sous-module.
+* Configuration du Doc As Code dans un submodule.
+* Ce repo doit rester *public* pour qu'il fonctionne en sous-module.
+* *Ne pas le renommer.*
 
 Contenu :
 
