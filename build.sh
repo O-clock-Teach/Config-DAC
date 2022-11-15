@@ -40,14 +40,17 @@ if [ ! -r ./public ]; then
 fi
 
 
+# Copie les répertoires dans public
 cp -a adoc_les_modules/*.html public
-cp -r Config-DAC/reveal.js/rainbow.css public/
-cp -r Config-DAC/reveal.js/ public/
-cp -r highlight/ public/
-cp -r reveal.js/ public/apprenant/html/
-cp -r reveal.js/ public/formateur/html/
 cp -r images/ public/
 cp -r Démonstrations/ public/
+
+# Copie les répertoires du sous-module dans public
+cp -r Config-DAC/reveal.js/rainbow.css public/
+cp -r Config-DAC/reveal.js/ public/
+cp -r Config-DAC/highlight/ public/
+cp -r Config-DAC/reveal.js/ public/apprenant/html/
+cp -r Config-DAC/reveal.js/ public/formateur/html/
 
 rm index.html
 mv -f public/formateur/html/index.html public/index.html
