@@ -1,3 +1,5 @@
+:icons: font
+
 = Config-DAC
 
 WARNING: Ce repository contient la configuration de tous les repos ADOC
@@ -7,6 +9,7 @@ Configuration du Doc As Code dans un submodule.
 Ce repo doit rester public pour qu'il fonctionne en sous-module.
 
 Contenu :
+
     * Le build.sh qui effectue la stratégie de génération automatique des supports html, pdf et slides.
     * La librairie revealJs qui fait fonctionner les slides.
     * La librairie Highlight qui customise les exemples de code.
