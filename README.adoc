@@ -1,0 +1,7 @@
+= Config-DAC
+
+WARNING: Ce repository contient la configuration de tous les repo ADOC
+
+Configuration du Doc As Code dans un submodule.
+
+Ce repo doit rester public pour qu'il fonctionne en sous-module.
