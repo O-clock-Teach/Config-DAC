@@ -52,20 +52,22 @@ if [ ! -r ./public ]; then
 fi
 
 
+
+
+# Copie les répertoires du sous-module dans public
+cp -r Config-DAC/reveal.js/rainbow.css public/
+cp -r Config-DAC/reveal.js/ public/
+cp -r Config-DAC/highlight/ public/
+cp -r Config-DAC/reveal.js/ public/apprenant/html/
+cp -r Config-DAC/reveal.js/ public/formateur/html/
+cp -r Config-DAC/reveal.js/ public/dv/html/
+
+# Copie les répertoires dans public et les zones pour chaque type de supports
 cp -a adoc_les_modules/*.html public
-cp -r reveal.js/rainbow.css public/
-cp -r reveal.js/ public/
-cp -r highlight/ public/
-
-cp -r reveal.js/ public/apprenant/html/
-cp -r reveal.js/ public/formateur/html/
-cp -r reveal.js/ public/dv/html/
-
 cp -r images/ public/
 cp -r images/ public/apprenant/
 cp -r images/ public/formateur/
 cp -r images/ public/dv/
-
 cp -r contenu_des_demonstrations/ public/
 
 rm index.html
